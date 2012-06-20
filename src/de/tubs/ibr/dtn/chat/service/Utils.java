@@ -38,4 +38,29 @@ public class Utils {
 		builder.setNegativeButton(activity.getResources().getString(R.string.alert_no), dialogClickListener);
 		builder.show();
 	}
+	
+	public static void showReinstallDialog(final Activity activity) {
+		DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+		    @Override
+		    public void onClick(DialogInterface dialog, int which) {
+		        switch (which){
+		        case DialogInterface.BUTTON_POSITIVE:
+					final Intent marketIntent = new Intent(Intent.ACTION_VIEW);
+					marketIntent.setData(Uri.parse("market://details?id=" + activity.getApplication().getPackageName()));
+					activity.startActivity(marketIntent);
+		            break;
+
+		        case DialogInterface.BUTTON_NEGATIVE:
+		            break;
+		        }
+		        activity.finish();
+		    }
+		};
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+		builder.setMessage(activity.getResources().getString(R.string.alert_reinstall_app));
+		builder.setPositiveButton(activity.getResources().getString(R.string.alert_yes), dialogClickListener);
+		builder.setNegativeButton(activity.getResources().getString(R.string.alert_no), dialogClickListener);
+		builder.show();
+	}
 }
