@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.tubs.ibr.dtn.chat"
-    android:versionCode="1000"
-    android:versionName="1.6" >
-    
-	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
+          package="de.tubs.ibr.dtn.chat">
     
     <uses-permission android:name="de.tubs.ibr.dtn.permission.DTN_COMMUNICATION"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
