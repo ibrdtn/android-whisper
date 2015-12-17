@@ -3,8 +3,10 @@
     <string name="app_name">Whisper</string>
     <string name="desc_buddy_icon">Freundstatus</string>
     <string name="desc_send_button">Senden Knopf</string>
+    <string name="desc_security_button">Security Info</string>
     <string name="send">Abschicken</string>
     <string name="list_messages">Nachrichten</string>
+    <string name="empty"></string>
     <string name="close">Schließen</string>
     <string name="clearmsg">Nachrichten löschen</string>
     <string name="voicemsg">Sprachnachricht aufnehmen</string>
@@ -37,7 +39,16 @@
     <string name="question_delete_messages">Möchten Sie wirklich alle von diesem Kontakt empfangenen und an diesen gesendete Nachrichten löschen?</string>
     <string name="tts_when_on_headset">Nachricht vorlesen</string>
     <string name="tts_when_on_headset_desc">Spielt die Nachricht mittels TTS ab wenn ein Kopfhöhrer verbunden ist.</string>
+    <string name="debug_notification">Debug Benachrichtigung</string>
+    <string name="debug_buddy_add">Buddy hinzufügen</string>
+    <string name="debug_send_presence">Sende Präsenznachricht</string>
+    <string name="debug_unregister">Abmelden</string>
+    <string name="image_contact_symbol">Kontaktsymbol</string>
 	<string name="type_to_compose_text_enter_to_send">Nachricht schreiben</string>
+    <string name="action_keyinfo">Schlüssel-Informationen</string>
+    <string name="action_trustinfo">Vertrauensinformation</string>
+    <string name="example_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</string>
+    <string name="example_timestamp">12:34</string>
     <string name="menu_pin">Immer anzeigen</string>
     <string name="menu_unpin">Nur anzeigen wenn verfügbar</string>
 </resources>

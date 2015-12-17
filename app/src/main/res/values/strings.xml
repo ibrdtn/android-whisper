@@ -4,6 +4,7 @@
     <string name="desc_buddy_icon">Buddy icon</string>
     <string name="desc_send_button">Send button</string>
     <string name="desc_security_button">Security Info</string>
+    <string name="send">Send</string>
     <string name="list_messages">Messages</string>
     <string name="empty"></string>
     <string name="close">Close</string>
@@ -15,6 +16,7 @@
     <string name="show_offline">Show all contacts</string>
     <string name="hide_offline">Hide offline contacts</string>
     <string name="preferences">Preferences</string>
+    <string name="you">You</string>
     <string name="new_message_from">New message from</string>
     <string name="new_message">New message</string>
     <string name="presenceTag">Presence</string>
